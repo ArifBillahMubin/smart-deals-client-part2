@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+ }
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+   /* Solid theme colors */
+  --color-primary: #632EE3;
+  --color-secondary: #9F62F2;
+
+}
+
+.primary-g {
+  background: linear-gradient(to right, #632EE3, #9F62F2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-primary-g {
+  background: linear-gradient(to right, #632EE3, #9F62F2);
+}
